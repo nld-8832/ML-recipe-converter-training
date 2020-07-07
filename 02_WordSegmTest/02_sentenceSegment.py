@@ -2,7 +2,7 @@ from cv2 import cv2
 import numpy as np
 import os
 
-img_dir = 'D:\\UET\\prepare_Dataset\\testDataset\\output_test_01'
+img_dir = 'C:\\Users\\linhn\\Desktop\\ML_final\\app\\testdata'
 imgFiles = os.listdir(img_dir)
 for (i, f) in enumerate(imgFiles):
     
